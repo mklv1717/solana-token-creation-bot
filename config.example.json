@@ -1,0 +1,51 @@
+{
+  "bot_token": "YOUR_BOT_TOKEN_FROM_BOTFATHER",
+  "allowed_user_id": YOUR_TELEGRAM_USER_ID,
+  
+  "wallet_private_key": "YOUR_SOLANA_WALLET_PRIVATE_KEY_BASE58",
+  "solana_rpc_url": "https://api.mainnet-beta.solana.com",
+  
+  "pumpfun_api_key": "YOUR_PUMPFUN_API_KEY",
+  "pumpfunapi_key": "YOUR_PUMPFUNAPI_ORG_KEY",
+  "pumpswapapi_key": "YOUR_PUMPSWAPAPI_KEY",
+  "pumpapi_key": "YOUR_PUMPAPI_KEY",
+  "solanaapis_key": "YOUR_SOLANAAPIS_KEY",
+  "yodao_key": "YOUR_YODAO_API_KEY",
+  "yodao_api_key": "YOUR_YODAO_API_KEY",
+  "pumpportal_key": "YOUR_PUMPPORTAL_KEY",
+  "moralis_key": "YOUR_MORALIS_API_KEY",
+  "moralis_api_key": "YOUR_MORALIS_API_KEY",
+  "callstatic_key": "YOUR_CALLSTATIC_KEY",
+  
+  "axiom_api_key": "YOUR_AXIOM_API_KEY_IF_AVAILABLE",
+  "axiom_trade_key": "YOUR_AXIOM_TRADE_KEY",
+  
+  "bullx_api_key": "YOUR_BULLX_API_KEY_IF_AVAILABLE",
+  "bullx_neo_key": "YOUR_BULLX_NEO_KEY_IF_AVAILABLE",
+  "bullx_exchange_key": "YOUR_BULLX_EXCHANGE_KEY",
+  
+  "_api_services": {
+    "pumpfun": {
+      "pumpfunapi": "https://docs.pumpfunapi.org",
+      "pumpswapapi": "https://pumpswapapi.fun",
+      "pumpapi": "https://pumpapi.io",
+      "solanaapis": "https://docs.solanaapis.net",
+      "yodao": "https://dev.yodao.io",
+      "pumpportal": "https://pumpportal.fun",
+      "moralis": "https://docs.moralis.com",
+      "callstatic": "https://callstatic.com/pumpfun-apis"
+    },
+    "axiom": {
+      "note": "No public API. Tokens may auto-list or require manual submission.",
+      "website": "https://axiom.trade",
+      "api": "https://api.axiom.trade",
+      "trader": "https://axiom-trader.org"
+    },
+    "bullx": {
+      "note": "No public API. Auto-tracks tokens from other platforms.",
+      "website": "https://bullxbot.com",
+      "exchange": "https://api.bullx.exchange",
+      "neo": "https://bullx.exchange"
+    }
+  }
+}
